@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app id="WebApp_ID" version="2.5" xmlns="http://java.sun.com/xml/ns/j2ee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="">
+	<display-name>Empresa</display-name>
+	<servlet>
+		<description>
+		</description>
+		<display-name>EmpleadosController</display-name>
+		<servlet-name>EmpleadosController</servlet-name>
+		<servlet-class>controlador.EmpleadosController</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>EmpleadosController</servlet-name>
+		<url-pattern>/EmpleadosController</url-pattern>
+	</servlet-mapping>
+	<welcome-file-list>
+		<welcome-file>index.html</welcome-file>
+		<welcome-file>index.htm</welcome-file>
+		<welcome-file>index.jsp</welcome-file>
+		<welcome-file>default.html</welcome-file>
+		<welcome-file>default.htm</welcome-file>
+		<welcome-file>default.jsp</welcome-file>
+	</welcome-file-list>
+</web-app>
